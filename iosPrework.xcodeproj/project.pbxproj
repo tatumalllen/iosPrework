@@ -16,6 +16,7 @@
 		AA9F4DB3278CD4530021FDDC /* iosPreworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F4DB2278CD4530021FDDC /* iosPreworkTests.swift */; };
 		AA9F4DBD278CD4530021FDDC /* iosPreworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F4DBC278CD4530021FDDC /* iosPreworkUITests.swift */; };
 		AA9F4DBF278CD4530021FDDC /* iosPreworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F4DBE278CD4530021FDDC /* iosPreworkUITestsLaunchTests.swift */; };
+		AA9F4DCC278D3BA30021FDDC /* SettingsViewContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F4DCB278D3BA30021FDDC /* SettingsViewContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AA9F4DB8278CD4530021FDDC /* iosPreworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosPreworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9F4DBC278CD4530021FDDC /* iosPreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosPreworkUITests.swift; sourceTree = "<group>"; };
 		AA9F4DBE278CD4530021FDDC /* iosPreworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosPreworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA9F4DCB278D3BA30021FDDC /* SettingsViewContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		AA9F4D8F278CD4500021FDDC = {
 			isa = PBXGroup;
 			children = (
+				AA9F4DCB278D3BA30021FDDC /* SettingsViewContainerViewController.swift */,
 				AA9F4D9A278CD4510021FDDC /* iosPrework */,
 				AA9F4DB1278CD4530021FDDC /* iosPreworkTests */,
 				AA9F4DBB278CD4530021FDDC /* iosPreworkUITests */,
@@ -260,6 +263,7 @@
 			files = (
 				AA9F4DA0278CD4510021FDDC /* ViewController.swift in Sources */,
 				AA9F4D9C278CD4510021FDDC /* AppDelegate.swift in Sources */,
+				AA9F4DCC278D3BA30021FDDC /* SettingsViewContainerViewController.swift in Sources */,
 				AA9F4D9E278CD4510021FDDC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
